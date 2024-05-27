@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic-Tac-Toe</h1>
+      <div class="game-container" id="game-container">
+        <div class="game" id="tic-tac-toe">
+          <!-- The grid cells will be generated using JavaScript -->
+        </div>
+        <div class="status" id="status">Player X's turn</div>
+        <button class="reset-button" id="reset-button" style="display: none">
+          Restart Game
+        </button>
+        <button class="start-button" id="start-button">Start Game</button>
+      </div>
+    </div>
+
+    <!-- Message Popup -->
+    <div class="message-popup" id="message-popup">
+      <div class="message-content">
+        <p id="message-text"></p>
+        <button id="new-game-button" style="display: none">New Game</button>
+        <button id="quit-button">Quit</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
